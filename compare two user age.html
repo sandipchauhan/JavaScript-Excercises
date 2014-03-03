@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to check the age.</p>
+
+Age:<input id="age"/>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction()
+{
+var age,x;
+age=document.getElementById("age").value;
+x=(age<18)?"mary is older than john":"john is older than mary"
+document.getElementById("demo").innerHTML=x;
+}
+</script>
+</body>
+</html>
+
+
